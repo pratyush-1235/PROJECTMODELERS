@@ -1,0 +1,164 @@
+css  CSS Boilerplate Code
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: gilroy;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+input, textarea, button, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(194, 235, 160);
+}
+/* #main:hover{
+    background-color: darkorchid;
+} */
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(249, 238, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+/* #nav:hover{
+background-color: aqua;
+} */
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius:50px ;
+}
+#nav h3:hover{
+    background-color: bisque;
+}
+#nav i{
+    font-size: 15px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius:50px ;
+}
+#nav i:hover{
+    background-color: bisque;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius:50px ;
+}
+#nav h1:hover{
+    background-color: bisque;
+}
+#nav button{
+    padding: 7px 10px;
+    border: 1.5px solid black;
+    border-radius:50px;
+    font-size: 17px;
+    font-weight: 600;
+}
+#btn1:hover{
+background-color: bisque;
+}
+#btn2{
+    color: white;
+    background-color: orangered;
+}
+#main>h1{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius:20px;
+    
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-80deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-60deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#btmleft{
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius:50px ;
+}
+#btmleft:hover{
+    background-color: bisque;
+}
+
